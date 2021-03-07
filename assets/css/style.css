@@ -1112,6 +1112,7 @@ section {
   text-align: center;
   line-height: 20px;
   font-size: 14px;
+ 
 }
 
 .pricing ul li {
@@ -1127,6 +1128,7 @@ section {
 .pricing ul .na {
   color: #ccc;
   text-decoration: line-through;
+
 }
 
 .pricing .btn-wrap {
@@ -1149,7 +1151,16 @@ section {
   border: 2px solid #c8cedc;
   color: #6c7c9f;
 }
-
+.pricing ul a:hover{
+  
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.5s;
+}
 .pricing .btn-buy:hover {
   background: #fff;
 }
@@ -1208,7 +1219,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family:"Helvetica Neue Thin", Helvetica Neue Thin;
+  font-family:"Helvetica Neue bold", Helvetica Neue bold;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
